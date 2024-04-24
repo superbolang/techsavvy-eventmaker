@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
+
 export default async function Page() {
   const res = await fetch('https://eventmakers.devscale.id/events', {
     cache: 'no-store',
